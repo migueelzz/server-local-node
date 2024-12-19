@@ -5,7 +5,8 @@ const path = require('path');
 
 const app = express();
 const PORT = 3333;
-const APK_URL = 'https://github.com/migueelzz/jbs-poc-releases/blob/main/releases/download/version/app.apk'; // Substitua pelo link real do APK
+const APK_URL = 'https://github.com/migueelzz/jbs-poc-releases/raw/main/releases/download/version/app.apk';
+
 const UPDATES_DIR = path.join(__dirname, 'updates');
 const APK_PATH = path.join(UPDATES_DIR, 'app.apk');
 
